@@ -1,0 +1,32 @@
+一、使用git上传到GitHub：
+
+
+
+二、使用git上传到码云：
+	ssh-keygen
+	cat ~/.ssh/id_rsa.pub
+	把生成的秘钥添加到码云的ssh秘钥处;
+	git clone git@gitee.com:go_lakers/SAAS.git
+	git config --global user.name "feiyan"
+	git config --global user.email "2677759629@qq.com"
+	git clone  git@gitee.com:go_lakers/SAAS.git
+	git add 'README.md'
+	git commit -m  "update"
+	git push git@gitee.com:go_lakers/SAAS.git
+	git push git@gitee.com:go_lakers/SAAS.git
+	git clone git@gitee.com:go_lakers/SAAS.git
+	git config --global user.name "feifeiyan"
+	git config --global user.email "2677759629@qq.com"
+	git add .
+	git add "README.md"
+	git commit -m "update"
+	git push git@gitee.com:go_lakers/SAAS.git
+	ssh-keygen -t rsa
+	cat ~/.ssh/id_rsa.pub
+	git config --global user.name "feifeiyan"
+	git config --global user.email "2677759629@qq.com"
+	git clone git@gitee.com:go_lakers/SAAS.git
+	git add 'README.md'
+	git status
+	git commit -m "test1"
+	git push git@gitee.com:go_lakers/SAAS.git
